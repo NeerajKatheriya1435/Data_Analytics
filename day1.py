@@ -48,7 +48,7 @@ nhivf
 # print1=89
 # print(print1)
 
-name="Shivam"
-NAME="Rohit"
+# name="Shivam"
+# NAME="Rohit"
 # name!=NAME
-print(name)
+# print(name)
