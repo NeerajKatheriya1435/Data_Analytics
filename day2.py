@@ -90,13 +90,17 @@
 # print(str2)
 
 # str1="   Rohan Kumar     "
-str1="Rohan Kumar"
+# str1="Rohan Kumar"
 # print(str1.upper())
 # print(str1.lower())
-print(str1.strip())
-print(str1.replace("Rohan","Mohan"))
+# print(str1.strip())
+# print(str1.replace("Rohan","Mohan"))
 
-str1 = "Welcome to the \nConsole!!!"
+# str1 = "Welcome to the \nConsole!!!"
 # print(str1.center(50))
 # print(str1.count("e"))
-print(str1.isprintable())
+# print(str1.isprintable())
+
+# print(15>8 and 7<56 and 5==5)
+# print(5>8 or 77<56 or 15==5)
+
