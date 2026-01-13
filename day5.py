@@ -90,11 +90,11 @@ list1=[5,6,7,"Rohan",[5,7,8],(2,3)]
 # var1.popitem()
 # print(var1)
 
-var1={
-    "Name":"Suraj",
-    "Age":34,
-    "Salary":2000
-}
+# var1={
+#     "Name":"Suraj",
+#     "Age":34,
+#     "Salary":2000
+# }
 
 # for key,val in var1.items():
 #     print(f"My Key is: {key} and value is: {val}")
@@ -102,5 +102,5 @@ var1={
 # for key in var1.keys():
 #     print(f"My Key is: {key}")
 
-for val in var1.values():
-    print(f"My Key is: {val}")
+# for val in var1.values():
+#     print(f"My Key is: {val}")
