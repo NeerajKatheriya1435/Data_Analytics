@@ -1,0 +1,3 @@
+Python writes a sequence of strings to
+Sequence canbe any iterable object
+Here's an example of how to use the writelines() method
