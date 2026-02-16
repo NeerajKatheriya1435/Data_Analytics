@@ -22,14 +22,32 @@ import time
 # l1=[5,74,4,43,"Suman",True,[6,46,3]]
 # print(l1)
 
-s1=time.time()
-str1= np.arange(1,2000000)*2
-e1=time.time()
+# s1=time.time()
+# str1= np.arange(1,2000000)*2
+# e1=time.time()
 
-print("First with array",e1-s1)
+# print("First with array",e1-s1)
 
-s2=time.time()
-str2= [i*2 for i in range(1,2000000)]
-e2=time.time()
+# s2=time.time()
+# str2= [i*2 for i in range(1,2000000)]
+# e2=time.time()
 
-print("With List",e2-s2)
+# print("With List",e2-s2)
+
+# import numpy as np
+
+# arr1=np.array([5,7,8,6])
+# print(arr1)
+
+import numpy as np
+
+arr1=np.array([4,7,3,2])
+arr2=np.array([5,8,2,1])
+
+# arr3=arr1+arr2
+arr3=arr1-arr2
+print(arr3)
+
+# arr3=np.add(arr1,arr2)
+arr3=np.subtract(arr1,arr2)
+print(arr3)
