@@ -41,13 +41,22 @@ import time
 
 import numpy as np
 
-arr1=np.array([4,7,3,2])
-arr2=np.array([5,8,2,1])
+# arr1=np.array([4,7,3,2])
+# arr2=np.array([5,8,2,1])
 
 # arr3=arr1+arr2
-arr3=arr1-arr2
-print(arr3)
+# arr3=arr1-arr2
+# print(arr3)
 
 # arr3=np.add(arr1,arr2)
-arr3=np.subtract(arr1,arr2)
-print(arr3)
+# arr3=np.subtract(arr1,arr2)
+# print(arr3)
+
+# arr1=np.array([[4,6,6],
+#                [3,2,8]])
+
+# arr2=arr1.ravel()
+# arr2[1]=90
+
+# print(arr1)
+# print(arr2)
