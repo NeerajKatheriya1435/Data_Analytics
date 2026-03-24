@@ -22,3 +22,5 @@ select rollNum as "Roll Number",name1 as StdName,age as "Age",dob as "Date of Bi
 
 SET SQL_SAFE_UPDATES = 0;
 delete from student where dob = "2002-02-02";
+
+
