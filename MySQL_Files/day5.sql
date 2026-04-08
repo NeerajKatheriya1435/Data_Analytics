@@ -51,7 +51,7 @@ insert into students (roll_no,name,city_id) values
 
 select * from students;
 
--- SELECT students.roll_no,students.name, cities.city_name
+SELECT students.roll_no,students.name, cities.city_name
 -- FROM students
 -- INNER JOIN cities
 -- ON students.city_id = cities.city_id;
@@ -70,4 +70,11 @@ ON students.city_id = cities.city_id;
 SELECT students.city_id,students.roll_no,students.name, cities.city_name
 FROM students
 right JOIN cities
-ON students.city_id = cities.city_id
+ON students.city_id = cities.city_id;
+
+select * from students;
+select * from cities;
+
+SELECT students.name, cities.city_id
+FROM students
+CROSS JOIN cities;
